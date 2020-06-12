@@ -72,17 +72,10 @@
 margin-right: 30px;
 }
 
-/* .list .item + .item {
-    margin-left: 50px;
-} */
-
 .main-nav {
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
-
-
 
 .link {
     text-decoration: none;
@@ -126,9 +119,13 @@ margin-right: 30px;
     background-color:var(--accent-color);
     border-radius: 4px;
     padding: 10px 32px;
-
-    /* color white after slyle btn */
 }
+
+.list .advantages:not(:last-child) {
+    margin-right: 30px;
+
+}
+
 .section-title {
     font-family: Roboto;
     font-weight: bold;
@@ -145,10 +142,16 @@ margin-right: 30px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    text-align: left;
+    width: 270px;
 }
-.section {
 
+.pict_position {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
 }
+
 .name {
     font-family: Roboto;
     font-weight: 500;
