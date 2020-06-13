@@ -92,6 +92,11 @@ margin-right: 30px;
     color: var(--accent-color);
 }
 
+.hero {
+    width: 600px;
+    padding: 200px 0px;
+}
+
 .hero-title {
     font-family: Roboto;
     font-weight: 900;
@@ -103,6 +108,9 @@ margin-right: 30px;
     max-width: 696px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
 /* белый цвет добавлю после бекграунда на фоне */
 }
 .button-link {
@@ -146,10 +154,20 @@ margin-right: 30px;
     width: 270px;
 }
 
+.section-margin {
+    margin-top: 94px;
+}
+
 .pict_position {
     width: 270px;
     height: 120px;
     padding: 25px 100px;
+}
+
+.h2-title {     
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 .name {
@@ -238,9 +256,7 @@ margin-right: 30px;
     display: flex;
     
 }
-.header {
 
-}
 .content {
 width: 1200px;
 padding-left: 15px;
