@@ -308,6 +308,8 @@ margin-right: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--white-color);
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 .button {
